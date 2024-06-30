@@ -14,7 +14,4 @@ def read_item(item_id: int, q: Union[str, None] = None):
     return {"item_id": item_id, "q": q}
 
 if __name__ == 'main':
-
-    import uvicorn
-
-    uvicorn.run('main:app', host='0.0.0.0', port=8000, reload=True, log_level='info')
+    pass
